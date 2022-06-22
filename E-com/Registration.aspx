@@ -17,7 +17,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo.png" />
+            <asp:Image ID="Image1" runat="server" Height="134px" ImageUrl="~/images/logo.png" Width="324px" />
         </div>
         <table class="auto-style1">
             <tr>

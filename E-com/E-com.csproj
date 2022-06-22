@@ -78,6 +78,7 @@
     <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
+    <Content Include="viewByCateory.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewByCateory.aspx.cs">
+      <DependentUpon>viewByCateory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewByCateory.aspx.designer.cs">
+      <DependentUpon>viewByCateory.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

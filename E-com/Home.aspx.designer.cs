@@ -51,13 +51,13 @@ namespace E_com
         protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
 
         /// <summary>
-        /// HyperLink6 control.
+        /// viewByCategoryhyperlinj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink6;
+        protected global::System.Web.UI.WebControls.HyperLink viewByCategoryhyperlinj;
 
         /// <summary>
         /// hlHome0 control.

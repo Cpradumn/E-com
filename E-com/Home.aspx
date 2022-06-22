@@ -14,9 +14,11 @@
             <br />
             <br />
             <asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/home.aspx">Home</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;<asp:HyperLink ID="HyperLink2" runat="server">ViewCart</asp:HyperLink>
-            &nbsp;<asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/ListByCatergory.aspx">List By Category</asp:HyperLink>
-            &nbsp;<asp:HyperLink ID="hlHome0" runat="server" NavigateUrl="~/Registration.aspx">Register</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;<asp:HyperLink ID="viewByCategoryhyperlinj" runat="server" NavigateUrl="~/viewByCateory.aspx">List By Category</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:HyperLink ID="hlHome0" runat="server" NavigateUrl="~/Registration.aspx">Register</asp:HyperLink>
             <br />
             <br />
         </div>
