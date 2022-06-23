@@ -62,16 +62,22 @@ namespace E_com
 
         protected void orderBtn_Click(object sender, EventArgs e)
         {
-            string data = "Selected products";
+            int counter = 0;
+            string data = "Selected products : ";
 
             foreach(ListItem item in catcheckBox.Items)
             {
                 if(item.Selected)
                 {
+                    counter++;
+                    ViewState["pcount"] = counter;
                     data += item.Text + " ";
+                   
                 }
+               
             }
             messageLabel.Text = data;
+            iblproductcount.Text = "Total number of products " + ViewState ["pcount"];
         }
     }
 }

@@ -63,6 +63,9 @@
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style3">
                     <asp:Label ID="messageLabel" runat="server" Text="lblMsg"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="iblproductcount" runat="server" Text="counter"></asp:Label>
                 </td>
                 <td>&nbsp;</td>
             </tr>
