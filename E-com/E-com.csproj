@@ -77,6 +77,7 @@
     <Content Include="images\printer.jpg" />
     <Content Include="ReadQueryString.aspx" />
     <Content Include="Registration.aspx" />
+    <Content Include="ViewCart.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
     <Content Include="viewByCateory.aspx" />
@@ -110,6 +111,13 @@
     </Compile>
     <Compile Include="viewByCateory.aspx.designer.cs">
       <DependentUpon>viewByCateory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCart.aspx.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCart.aspx.designer.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

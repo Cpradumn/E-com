@@ -65,6 +65,8 @@ namespace E_com
             int counter = 0;
             string data = "Selected products : ";
 
+            HttpCookie cookie = new HttpCookie("productlist");
+            string str = "prod";
             foreach(ListItem item in catcheckBox.Items)
             {
                 if(item.Selected)
@@ -72,12 +74,18 @@ namespace E_com
                     counter++;
                     ViewState["pcount"] = counter;
                     data += item.Text + " ";
-                   
+
+                    str = str + counter.ToString();
+                    cookie.Values.Add(str, item.Text);
                 }
                
             }
-            messageLabel.Text = data;
-            iblproductcount.Text = "Total number of products " + ViewState ["pcount"];
+            // set the cookie
+            Response.Cookies.Add(cookie);
+            Response.Redirect("ViewCart.aspx");
+
+            //messageLabel.Text = data;
+            //iblproductcount.Text = "Total number of products " + ViewState ["pcount"];
         }
     }
 }

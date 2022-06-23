@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="E_com.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ViewCart.aspx.cs" Inherits="E_com.ViewCart" %>
 
 <!DOCTYPE html>
 
@@ -36,53 +36,37 @@
                     <asp:HyperLink ID="HomeNeedsHyperLink" runat="server" NavigateUrl="~/ReadQueryString.aspx?categories=HomeNeeds">HomeNeeds</asp:HyperLink>
                 </td>
                 <td>
-                    <asp:Image ID="Image2" runat="server" Height="206px" ImageUrl="~/images/furniture.jpg" Width="250px" />
                     <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solid Wood 3 Seater</td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                 <td>
-                    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/camera.jpg" Height="153px" Width="234px" />
                     <br />
                     <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nikon Z5
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <br />
+                    <br />
+                    &nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <asp:CheckBoxList ID="ViewCartCheckBoxList" runat="server">
+                    </asp:CheckBoxList>
                 </td>
             </tr>
             <tr>
-                <td>
-                    <asp:Image ID="Image4" runat="server" ImageUrl="~/images/laptop.jpg" Height="158px" Width="185px" />
-                    <br />
-                    <br />
-&nbsp;&nbsp;&nbsp;&nbsp; Lenevo ThinkPad34500</td>
-                <td>
-                    <asp:Image ID="Image5" runat="server" ImageUrl="~/images/printer.jpg" />
-                    <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Epson Printer</td>
-            </tr>
-            <tr>
                 <td class="auto-style2">
-                    <asp:Image ID="Image6" runat="server" ImageUrl="~/images/camera.jpg" />
-                    <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nikon Z6</td>
+                    &nbsp;</td>
                 <td class="auto-style2">
-                    <asp:Image ID="Image7" runat="server" ImageUrl="~/images/furniture.jpg" />
-                    <br />
-                    <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solid Wood Furmish 3 Seater</td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <asp:Image ID="Image8" runat="server" ImageUrl="~/images/laptop.jpg" />
                     <br />
-&nbsp;<br />
-&nbsp;&nbsp;&nbsp; Dell Latitude-34110<br />
                     <br />
                 </td>
                 <td>
-                    <asp:Image ID="Image9" runat="server" ImageUrl="~/images/printer.jpg" />
-                    <br />
-                    <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Epson Color-Printer</td>
+                    <asp:Label ID="ViewCartLabel" runat="server" Text="Label"></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td>
