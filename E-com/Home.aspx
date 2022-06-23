@@ -27,13 +27,13 @@
         <table class="auto-style1">
             <tr>
                 <td rowspan="6">
-                    <asp:HyperLink ID="HyperLink5" runat="server">Furniture</asp:HyperLink>
+                    <asp:HyperLink ID="FurnitureHyperLink" runat="server" NavigateUrl="~/ReadQueryString.aspx?categories=furniture">Furniture</asp:HyperLink>
                     <br />
-                    <asp:HyperLink ID="HyperLink3" runat="server">Electronics</asp:HyperLink>
+                    <asp:HyperLink ID="ElectronicsHyperLink" runat="server" NavigateUrl="~/ReadQueryString.aspx?categories=Electronics">Electronics</asp:HyperLink>
                     <br />
-                    <asp:HyperLink ID="HyperLink4" runat="server">Camera</asp:HyperLink>
+                    <asp:HyperLink ID="CameraHyperLink" runat="server" NavigateUrl="~/ReadQueryString.aspx?categories=Camera">Camera</asp:HyperLink>
                     <br />
-                    <asp:HyperLink ID="HyperLink1" runat="server">HomeNeeds</asp:HyperLink>
+                    <asp:HyperLink ID="HomeNeedsHyperLink" runat="server" NavigateUrl="~/ReadQueryString.aspx?categories=HomeNeeds">HomeNeeds</asp:HyperLink>
                 </td>
                 <td>
                     <asp:Image ID="Image2" runat="server" Height="206px" ImageUrl="~/images/furniture.jpg" Width="250px" />

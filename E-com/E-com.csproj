@@ -75,6 +75,7 @@
     <Content Include="images\laptop.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\printer.jpg" />
+    <Content Include="ReadQueryString.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
@@ -82,6 +83,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadQueryString.aspx.cs">
+      <DependentUpon>ReadQueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReadQueryString.aspx.designer.cs">
+      <DependentUpon>ReadQueryString.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

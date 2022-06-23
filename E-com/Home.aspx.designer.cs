@@ -69,40 +69,40 @@ namespace E_com
         protected global::System.Web.UI.WebControls.HyperLink hlHome0;
 
         /// <summary>
-        /// HyperLink5 control.
+        /// FurnitureHyperLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink5;
+        protected global::System.Web.UI.WebControls.HyperLink FurnitureHyperLink;
 
         /// <summary>
-        /// HyperLink3 control.
+        /// ElectronicsHyperLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
+        protected global::System.Web.UI.WebControls.HyperLink ElectronicsHyperLink;
 
         /// <summary>
-        /// HyperLink4 control.
+        /// CameraHyperLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink4;
+        protected global::System.Web.UI.WebControls.HyperLink CameraHyperLink;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// HomeNeedsHyperLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.HyperLink HomeNeedsHyperLink;
 
         /// <summary>
         /// Image2 control.
