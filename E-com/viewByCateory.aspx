@@ -29,7 +29,7 @@
             <tr>
                 <td class="auto-style2">Furniture</td>
                 <td class="auto-style3">
-                    <asp:DropDownList ID="ddlcategories" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                    <asp:DropDownList ID="ddlcategories" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
                 <td>&nbsp;</td>
@@ -37,7 +37,7 @@
             <tr>
                 <td class="auto-style2">Electronics</td>
                 <td class="auto-style3">
-                    <asp:CheckBoxList ID="catcheckBox" runat="server">
+                    <asp:CheckBoxList ID="catcheckBox" runat="server" OnSelectedIndexChanged="catcheckBox_SelectedIndexChanged">
                     </asp:CheckBoxList>
                 </td>
                 <td>&nbsp;</td>
@@ -50,7 +50,7 @@
             <tr>
                 <td class="auto-style2">Home Needs</td>
                 <td class="auto-style3">
-                    <asp:Button ID="orderBtn" runat="server" Text="Order" />
+                    <asp:Button ID="orderBtn" runat="server" Text="Order" OnClick="orderBtn_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
