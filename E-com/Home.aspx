@@ -9,6 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="lblVisitCount" runat="server"></asp:Label>
+            <br />
+            <br />
             <asp:Image ID="Image10" runat="server" Height="108px" ImageUrl="~/images/logo.png" Width="235px" />
             <br />
             <br />

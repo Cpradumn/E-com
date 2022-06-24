@@ -70,6 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="images\camera.jpg" />
     <Content Include="images\furniture.jpg" />
     <Content Include="images\laptop.jpg" />
@@ -83,6 +84,9 @@
     <Content Include="viewByCateory.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadQueryString.aspx.cs">
       <DependentUpon>ReadQueryString.aspx</DependentUpon>

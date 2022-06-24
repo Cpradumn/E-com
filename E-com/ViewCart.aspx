@@ -49,7 +49,7 @@
                     <br />
                     &nbsp;&nbsp;&nbsp;</td>
                 <td>
-                    <asp:CheckBoxList ID="ViewCartCheckBoxList" runat="server">
+                    <asp:CheckBoxList ID="ViewCartCheckBoxList" runat="server" OnSelectedIndexChanged="ViewCartCheckBoxList_SelectedIndexChanged">
                     </asp:CheckBoxList>
                 </td>
             </tr>
@@ -78,7 +78,8 @@
                 <td>
                     &nbsp;</td>
                 <td>
-                    &nbsp;</td>
+                    <asp:Button ID="ViewCartDeletebtn" runat="server" OnClick="ViewCartDeletebtn_Click" Text="Delete" />
+                </td>
             </tr>
         </table>
 

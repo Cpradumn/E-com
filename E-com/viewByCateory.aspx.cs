@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -62,6 +63,9 @@ namespace E_com
 
         protected void orderBtn_Click(object sender, EventArgs e)
         {
+
+            // Code for Cookie
+            /*
             int counter = 0;
             string data = "Selected products : ";
 
@@ -83,9 +87,24 @@ namespace E_com
             // set the cookie
             Response.Cookies.Add(cookie);
             Response.Redirect("ViewCart.aspx");
-
+            */
             //messageLabel.Text = data;
             //iblproductcount.Text = "Total number of products " + ViewState ["pcount"];
+
+
+            // Code for Session 
+
+            ArrayList list = new ArrayList();
+            foreach(ListItem item in catcheckBox.Items)
+            {
+                if(item.Selected)
+                {
+                    list.Add(item.Text);
+                }
+            }
+
+            Session["Plist"] = list;
+            Response.Redirect("ViewCart.aspx");
         }
     }
 }
